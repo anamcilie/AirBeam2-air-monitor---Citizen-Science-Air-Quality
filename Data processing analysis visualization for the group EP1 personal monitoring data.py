@@ -4,7 +4,8 @@ Created on Thu May 23 09:31:35 2019
 
 @author: Ana MC Ilie
 """
-'''
+" Citation: Ilie et. al, 2022. Air Pollution Exposure Assessment at Schools and Playgrounds in Williamsburg Brooklyn NYC, with a view to developing a set of policy solutions. Journal of Environmental Studies and Sciences, Springer. 
+
 '''
 
 import pandas as pd

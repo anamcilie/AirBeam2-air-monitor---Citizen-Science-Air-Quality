@@ -1,8 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
+@author: Ana MC Ilie
 
-This is a temporary script file.
+Citation: Ilie et. al, 2022. Air Pollution Exposure Assessment at Schools and Playgrounds in Williamsburg Brooklyn NYC, with a view to developing a set of policy solutions. 
+Journal of Environmental Studies and Sciences, Springer. 
+
+
 """
 
 import pandas as pd

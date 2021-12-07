@@ -3,6 +3,9 @@
 Created on Mon Mar 18 10:44:50 2019
 
 @author: Ana MC Ilie
+
+Citation: Ilie et. al, 2022. Air Pollution Exposure Assessment at Schools and Playgrounds in Williamsburg Brooklyn NYC, with a view to developing a set of policy solutions. 
+Journal of Environmental Studies and Sciences, Springer. 
 """
 
 import pandas as pd
@@ -120,79 +123,79 @@ data_cont.columns
 # Boxplot Analysis to see presence of outliers and save the file.png
 fig = plt.figure()
 sns.boxplot(y=data_cont["PM-2.5_W1"], data=data)
-fig.savefig(r'C:\Users\CBNS\Documents\NYCCAS\Dr HOLGER Eisl\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\boxplot_W1.png') # save the figure to file
+fig.savefig(r'C:\Users\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\boxplot_W1.png') # save the figure to file
 plt.close(fig) # close the figure
 
 fig = plt.figure()
 sns.boxplot(y=data_cont["PM-2.5_W2A"], data=data)
-fig.savefig(r'C:\Users\CBNS\Documents\NYCCAS\Dr HOLGER Eisl\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\boxplot_W2A.png') # save the figure to file
+fig.savefig(r'C:\Users\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\boxplot_W2A.png') # save the figure to file
 plt.close(fig) # close the figure
 
 fig = plt.figure()
 sns.boxplot(y=data_cont["PM-2.5_W2b"], data=data)
-fig.savefig(r'C:\Users\CBNS\Documents\NYCCAS\Dr HOLGER Eisl\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\boxplot_W2b.png') # save the figure to file
+fig.savefig(r'C:\Users\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\boxplot_W2b.png') # save the figure to file
 plt.close(fig) # close the figure
 
 fig = plt.figure()
 sns.boxplot(y=data_cont["PM-2.5_W3"], data=data)
-fig.savefig(r'C:\Users\CBNS\Documents\NYCCAS\Dr HOLGER Eisl\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\boxplot_W3.png') # save the figure to file
+fig.savefig(r'C:\Users\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\boxplot_W3.png') # save the figure to file
 plt.close(fig) # close the figure
 
 fig = plt.figure()
 sns.boxplot(y=data_cont["PM-2.5_W4"], data=data)
-fig.savefig(r'C:\Users\CBNS\Documents\NYCCAS\Dr HOLGER Eisl\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\boxplot_W4.png') # save the figure to file
+fig.savefig(r'C:\Users\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\boxplot_W4.png') # save the figure to file
 plt.close(fig) # close the figure
 
 fig = plt.figure()
 sns.boxplot(y=data_cont["PM-2.5_W5"], data=data)
-fig.savefig(r'C:\Users\CBNS\Documents\NYCCAS\Dr HOLGER Eisl\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\boxplot_W5.png') # save the figure to file
+fig.savefig(r'C:\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\boxplot_W5.png') # save the figure to file
 plt.close(fig) # close the figure
 
 fig = plt.figure()
 sns.boxplot(y=data_cont["PM-2.5_W6a"], data=data)
-fig.savefig(r'C:\Users\CBNS\Documents\NYCCAS\Dr HOLGER Eisl\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\boxplot_W6a.png') # save the figure to file
+fig.savefig(r'C:\Users\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\boxplot_W6a.png') # save the figure to file
 plt.close(fig) # close the figure
 
 fig = plt.figure()
 sns.boxplot(y=data_cont["PM-2.5_W6b"], data=data)
-fig.savefig(r'C:\Users\CBNS\Documents\NYCCAS\Dr HOLGER Eisl\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\boxplot_W6b.png') # save the figure to file
+fig.savefig(r'C:\Users\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\boxplot_W6b.png') # save the figure to file
 plt.close(fig) # close the figure
 
 fig = plt.figure()
 sns.boxplot(y=data_cont["PM-2.5_W7"], data=data)
-fig.savefig(r'C:\Users\CBNS\Documents\NYCCAS\Dr HOLGER Eisl\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\boxplot_W7.png') # save the figure to file
+fig.savefig(r'C:\Users\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\boxplot_W7.png') # save the figure to file
 plt.close(fig) # close the figure
 
 fig = plt.figure()
 sns.boxplot(y=data_cont["PM-2.5_W8"], data=data)
-fig.savefig(r'C:\Users\CBNS\Documents\NYCCAS\Dr HOLGER Eisl\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\boxplot_W8.png') # save the figure to file
+fig.savefig(r'C:\Users\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\boxplot_W8.png') # save the figure to file
 plt.close(fig) # close the figure
 
 fig = plt.figure()
 sns.boxplot(y=data_cont["PM-2.5_W9"], data=data)
-fig.savefig(r'C:\Users\CBNS\Documents\NYCCAS\Dr HOLGER Eisl\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\boxplot_W9.png') # save the figure to file
+fig.savefig(r'C:\Users\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\boxplot_W9.png') # save the figure to file
 plt.close(fig) # close the figure
 
 fig = plt.figure()
 sns.boxplot(y=data_cont["PM-2.5_W10a"], data=data)
-fig.savefig(r'C:\Users\CBNS\Documents\NYCCAS\Dr HOLGER Eisl\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\boxplot_W10a.png') # save the figure to file
+fig.savefig(r'C:\Users\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\boxplot_W10a.png') # save the figure to file
 plt.close(fig) # close the figure
 
 fig = plt.figure()
 sns.boxplot(y=data_cont["PM-2.5_W10b"], data=data)
-fig.savefig(r'C:\Users\CBNS\Documents\NYCCAS\Dr HOLGER Eisl\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\boxplot_W10b.png') # save the figure to file
+fig.savefig(r'C:\Users\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\boxplot_W10b.png') # save the figure to file
 plt.close(fig) # close the figure
 
 fig = plt.figure()
 sns.boxplot(y=data_cont["PM-2.5_W11a"], data=data)
-fig.savefig(r'C:\Users\CBNS\Documents\NYCCAS\Dr HOLGER Eisl\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\boxplot_W11a.png') # save the figure to file
+fig.savefig(r'C:\Users\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\boxplot_W11a.png') # save the figure to file
 plt.close(fig) # close the figure
 
 
 # Basic Plots boxplots all variables
 fig = plt.figure()
 data_cont.boxplot()
-fig.savefig(r'C:\Users\CBNS\Documents\NYCCAS\Dr HOLGER Eisl\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\boxplots all variables.png') # save the figure to file
+fig.savefig(r'C:\Users\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\boxplots all variables.png') # save the figure to file
 plt.close(fig) # close the figure
 
 # Pair Plot
@@ -206,7 +209,7 @@ plt.plot(data_cont[pm_conc])
 plt.xlabel('Timestamp')
 plt.ylabel('PM Concentration')
 plt.show()
-fig.savefig(r'C:\Users\CBNS\Documents\NYCCAS\Dr HOLGER Eisl\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\lineplot.png') # save the figure to file
+fig.savefig(r'C:\Users\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\lineplot.png') # save the figure to file
 plt.close(fig) # close the figure
 
 # Histogram
@@ -238,67 +241,67 @@ plt.legend()
 # Linear regression models
 fig = plt.figure()
 sns.regplot(x="PM-2.5_W2A", y="PM-2.5_W1", data=data);
-fig.savefig(r'C:\Users\CBNS\Documents\NYCCAS\Dr HOLGER Eisl\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\linearreg_W1.png') # save the figure to file
+fig.savefig(r'C:\Users\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\linearreg_W1.png') # save the figure to file
 plt.close(fig) # close the figure
 
 fig = plt.figure()
 sns.regplot(x="PM-2.5_W2A", y="PM-2.5_W2b", data=data);
-fig.savefig(r'C:\Users\CBNS\Documents\NYCCAS\Dr HOLGER Eisl\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\linearreg_W2b.png') # save the figure to file
+fig.savefig(r'C:\Users\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\linearreg_W2b.png') # save the figure to file
 plt.close(fig)
 
 fig = plt.figure()
 sns.regplot(x="PM-2.5_W2A", y="PM-2.5_W3", data=data);
-fig.savefig(r'C:\Users\CBNS\Documents\NYCCAS\Dr HOLGER Eisl\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\linearreg_W3.png') # save the figure to file
+fig.savefig(r'C:\Users\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\linearreg_W3.png') # save the figure to file
 plt.close(fig)
 
 fig = plt.figure()
 sns.regplot(x="PM-2.5_W2A", y="PM-2.5_W4", data=data);
-fig.savefig(r'C:\Users\CBNS\Documents\NYCCAS\Dr HOLGER Eisl\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\linearreg_W4.png') # save the figure to file
+fig.savefig(r'C:\Users\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\linearreg_W4.png') # save the figure to file
 plt.close(fig)
 
 fig = plt.figure()
 sns.regplot(x="PM-2.5_W2A", y="PM-2.5_W5", data=data);
-fig.savefig(r'C:\Users\CBNS\Documents\NYCCAS\Dr HOLGER Eisl\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\linearreg_W5.png') # save the figure to file
+fig.savefig(r'C:\Users\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\linearreg_W5.png') # save the figure to file
 plt.close(fig)
 
 fig = plt.figure()
 sns.regplot(x="PM-2.5_W2A", y="PM-2.5_W6a", data=data);
-fig.savefig(r'C:\Users\CBNS\Documents\NYCCAS\Dr HOLGER Eisl\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\linearreg_W6a.png') # save the figure to file
+fig.savefig(r'C:\Users\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\linearreg_W6a.png') # save the figure to file
 plt.close(fig)
 
 fig = plt.figure()
 sns.regplot(x="PM-2.5_W2A", y="PM-2.5_W6b", data=data);
-fig.savefig(r'C:\Users\CBNS\Documents\NYCCAS\Dr HOLGER Eisl\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\linearreg_W6b.png') # save the figure to file
+fig.savefig(r'C:\Users\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\linearreg_W6b.png') # save the figure to file
 plt.close(fig)
 
 fig = plt.figure()
 sns.regplot(x="PM-2.5_W2A", y="PM-2.5_W7", data=data);
-fig.savefig(r'C:\Users\CBNS\Documents\NYCCAS\Dr HOLGER Eisl\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\linearreg_W7.png') # save the figure to file
+fig.savefig(r'C:\Users\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\linearreg_W7.png') # save the figure to file
 plt.close(fig)
 
 fig = plt.figure()
 sns.regplot(x="PM-2.5_W2A", y="PM-2.5_W8", data=data);
-fig.savefig(r'C:\Users\CBNS\Documents\NYCCAS\Dr HOLGER Eisl\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\linearreg_W8.png') # save the figure to file
+fig.savefig(r'C:\Users\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\linearreg_W8.png') # save the figure to file
 plt.close(fig)
 
 fig = plt.figure()
 sns.regplot(x="PM-2.5_W2A", y="PM-2.5_W9", data=data);
-fig.savefig(r'C:\Users\CBNS\Documents\NYCCAS\Dr HOLGER Eisl\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\linearreg_W9.png') # save the figure to file
+fig.savefig(r'C:\Users\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\linearreg_W9.png') # save the figure to file
 plt.close(fig)
 
 fig = plt.figure()
 sns.regplot(x="PM-2.5_W2A", y="PM-2.5_W10a", data=data);
-fig.savefig(r'C:\Users\CBNS\Documents\NYCCAS\Dr HOLGER Eisl\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\linearreg_W10a.png') # save the figure to file
+fig.savefig(r'C:\Users\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\linearreg_W10a.png') # save the figure to file
 plt.close(fig)
 
 fig = plt.figure()
 sns.regplot(x="PM-2.5_W2A", y="PM-2.5_W10b", data=data);
-fig.savefig(r'C:\Users\CBNS\Documents\NYCCAS\Dr HOLGER Eisl\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\linearreg_W10b.png') # save the figure to file
+fig.savefig(r'C:\Users\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\linearreg_W10b.png') # save the figure to file
 plt.close(fig)
 
 fig = plt.figure()
 sns.regplot(x="PM-2.5_W2A", y="PM-2.5_W11a", data=data);
-fig.savefig(r'C:\Users\CBNS\Documents\NYCCAS\Dr HOLGER Eisl\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\linearreg_W11a.png') # save the figure to file
+fig.savefig(r'C:\Users\Data Analysis\Intercomparison\Fixed DEC site\March 18th 9am\linearreg_W11a.png') # save the figure to file
 plt.close(fig)
 
 

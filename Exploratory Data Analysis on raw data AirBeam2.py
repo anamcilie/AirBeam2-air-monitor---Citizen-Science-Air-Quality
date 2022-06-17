@@ -1,12 +1,9 @@
-# -*- coding: utf-8 -*-
 """
 @author: Ana MC Ilie
 
-Citation: Ilie et. al, 2022. Air Pollution Exposure Assessment at Schools and Playgrounds in Williamsburg Brooklyn NYC, with a view to developing a set of policy solutions. 
-Journal of Environmental Studies and Sciences, Springer. 
-
-
+Citation: Ilie A.M.C., 2022. Processing citizen-generated air quality data using Python programming language for a data science high school curriculum.  
 """
+
 
 import pandas as pd
 import matplotlib.pyplot as plt

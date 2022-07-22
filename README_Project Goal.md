@@ -12,3 +12,7 @@ The Python scripts were written to help community-based organizations and high s
 The scripts made it easier to process the data (missing data, filtering noisy data, outlier analysis, data cleaning, etc.), to analyze the data 
 (exploratory data analysis, descriptive statistics, time series-based analysis, trend, seasonality, regression analysis, etc.), 
 and to visualize the data, communicating the results through visual tools and dashboards. 
+
+
+Citation: Ilie A.M.C. et al., 2022. Air Pollution Exposure Assessment at Schools and Playgrounds in Williamsburg Brooklyn NYC, 
+with a view to developing a set of policy solutions. Journal of Environmental Studies and Sciences - Springer. DOI: 10.1007/s13412-022-00777-7

@@ -2,8 +2,8 @@
 """
 @author: Ana MC Ilie
 
-Citation: Ilie A.M.C. et al., (article accepted pending minor revisions). Air Pollution Exposure Assessment at Schools and Playgrounds in Williamsburg Brooklyn NYC, 
-with a view to developing a set of policy solutions. Journal of Environmental Studies and Sciences - Springer. 
+Citation: Ilie A.M.C. et al., 2022. Air Pollution Exposure Assessment at Schools and Playgrounds in Williamsburg Brooklyn NYC, 
+with a view to developing a set of policy solutions. Journal of Environmental Studies and Sciences - Springer. DOI: 10.1007/s13412-022-00777-7
 
 """
 
